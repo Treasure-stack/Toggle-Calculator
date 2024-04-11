@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container1 containerLight">
+    <div class="img"><img src="img/809a208a-93ca-42e3-8187-53ce7b577389.jpg" alt="toggle"></div>
+    <div class="calculator-card">
+      <h2>Calculator</h2>
+      <form action="">
+        <div class="displayInput">
+          <input type="text" name="display" readonly>
+        </div>
+        <div class="inputButton">
+          <input type="button" value="AC" class="input" onclick="display.value=''">
+          <input type="button" value="DEL" class="input" onclick="display.value=display.value.toString().slice(0,-1)">
+          <input type="button" value="%" class="input" onclick="display.value +='%'">
+          <input type="button" value="+" class="input green" onclick="display.value +='+'">
+        </div>
+  
+        <div class="inputButton">
+          <input type="button" value="7" class="input" onclick="display.value +=7">
+          <input type="button" value="8" class="input" onclick="display.value +='8'">
+          <input type="button" value="9" class="input" onclick="display.value +='9'">
+          <input type="button" value="-" class="input green" onclick="display.value +='-'">
+        </div>
+  
+        <div class="inputButton">
+          <input type="button" value="4" class="input" onclick="display.value +='4'">
+          <input type="button" value="5" class="input" onclick="display.value +='5'">
+          <input type="button" value="6" class="input" onclick="display.value +='6'">
+          <input type="button" value="*" class="input green" onclick="display.value += '*'">
+        </div>
+  
+        <div class="inputButton">
+          <input type="button" value="1" class="input" onclick="display.value +='1'">
+          <input type="button" value="2" class="input" onclick="display.value += '2'">
+          <input type="button" value="3" class="input" onclick="display.value += '3'">
+          <input type="button" value="/" class="input green" onclick="display.value +='/'">
+        </div>
+  
+        <div class="inputButton">
+          <input type="button" value="." class="input" onclick="display.value +='.'">
+          <input type="button" value="0" class="input" onclick="display.value +='0'">
+          <input type="button" value="00" class="input" onclick="display.value +='00'">
+          <input type="button" value="=" class="input green" onclick="display.value=eval(display.value)">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="container1">
+      <div class="img img2"><img src="img/44cb0ab7-59ef-4890-98bc-53f98f0c6f18.jpg"></div>
+      <div class="calculator-card">
+        <h2>Calculator</h2>
+        <form action="">
+          <div class="displayInput">
+            <input type="text" name="display" readonly>
+          </div>
+          <div class="inputButton">
+            <input type="button" value="AC" class="input" onclick="display.value=''">
+            <input type="button" value="DEL" class="input" onclick="display.value=display.value.toString().slice(0,-1)">
+            <input type="button" value="%" class="input" onclick="display.value +='%'">
+            <input type="button" value="+" class="input green" onclick="display.value +='+'">
+          </div>
+    
+          <div class="inputButton">
+            <input type="button" value="7" class="input" onclick="display.value +=7">
+            <input type="button" value="8" class="input" onclick="display.value +='8'">
+            <input type="button" value="9" class="input" onclick="display.value +='9'">
+            <input type="button" value="-" class="input green" onclick="display.value +='-'">
+          </div>
+    
+          <div class="inputButton">
+            <input type="button" value="4" class="input" onclick="display.value +='4'">
+            <input type="button" value="5" class="input" onclick="display.value +='5'">
+            <input type="button" value="6" class="input" onclick="display.value +='6'">
+            <input type="button" value="*" class="input green" onclick="display.value += '*'">
+          </div>
+    
+          <div class="inputButton">
+            <input type="button" value="1" class="input" onclick="display.value +='1'">
+            <input type="button" value="2" class="input" onclick="display.value += '2'">
+            <input type="button" value="3" class="input" onclick="display.value += '3'">
+            <input type="button" value="/" class="input green" onclick="display.value +='/'">
+          </div>
+    
+          <div class="inputButton">
+            <input type="button" value="." class="input" onclick="display.value +='.'">
+            <input type="button" value="0" class="input" onclick="display.value +='0'">
+            <input type="button" value="00" class="input" onclick="display.value +='00'">
+            <input type="button" value="=" class="input green" onclick="display.value=eval(display.value)">
+          </div>
+        </form>
+      </div>
+    </div>
+  
+  
+
+  </div>
+
+
+ 
+
+
+   
+  
+  </div>
+  <footer>&copy; 2024 TREASURE</footer>
+
+
+  <script src="app.js"></script>
+</body>
+
+
+</html>
